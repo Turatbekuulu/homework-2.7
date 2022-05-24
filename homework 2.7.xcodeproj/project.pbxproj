@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		045FBFE928392A7D00162C0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FBFE828392A7D00162C0C /* main.swift */; };
+		045FBFF028392D1200162C0C /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FBFEF28392D1200162C0C /* Heroes.swift */; };
+		045FBFF228392E6B00162C0C /* HeroesFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FBFF128392E6B00162C0C /* HeroesFile.swift */; };
+		045FBFF428392F5200162C0C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FBFF328392F5200162C0C /* Game.swift */; };
+		046B50D3283BD94E0020B23C /* SuperAbiltyDelegate .swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B50D2283BD94E0020B23C /* SuperAbiltyDelegate .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		045FBFE528392A7D00162C0C /* lesson 2.7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lesson 2.7"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045FBFE528392A7D00162C0C /* homework 2.7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "homework 2.7"; sourceTree = BUILT_PRODUCTS_DIR; };
 		045FBFE828392A7D00162C0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		045FBFEF28392D1200162C0C /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
+		045FBFF128392E6B00162C0C /* HeroesFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesFile.swift; sourceTree = "<group>"; };
+		045FBFF328392F5200162C0C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		046B50D2283BD94E0020B23C /* SuperAbiltyDelegate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SuperAbiltyDelegate .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +57,7 @@
 		045FBFE628392A7D00162C0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				045FBFE528392A7D00162C0C /* lesson 2.7 */,
+				045FBFE528392A7D00162C0C /* homework 2.7 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				045FBFE828392A7D00162C0C /* main.swift */,
+				045FBFEF28392D1200162C0C /* Heroes.swift */,
+				045FBFF128392E6B00162C0C /* HeroesFile.swift */,
+				045FBFF328392F5200162C0C /* Game.swift */,
+				046B50D2283BD94E0020B23C /* SuperAbiltyDelegate .swift */,
 			);
 			path = "lesson 2.7";
 			sourceTree = "<group>";
@@ -65,9 +77,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		045FBFE428392A7D00162C0C /* lesson 2.7 */ = {
+		045FBFE428392A7D00162C0C /* homework 2.7 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045FBFEC28392A7D00162C0C /* Build configuration list for PBXNativeTarget "lesson 2.7" */;
+			buildConfigurationList = 045FBFEC28392A7D00162C0C /* Build configuration list for PBXNativeTarget "homework 2.7" */;
 			buildPhases = (
 				045FBFE128392A7D00162C0C /* Sources */,
 				045FBFE228392A7D00162C0C /* Frameworks */,
@@ -77,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = "lesson 2.7";
+			name = "homework 2.7";
 			productName = "lesson 2.7";
-			productReference = 045FBFE528392A7D00162C0C /* lesson 2.7 */;
+			productReference = 045FBFE528392A7D00162C0C /* homework 2.7 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 045FBFE028392A7C00162C0C /* Build configuration list for PBXProject "lesson 2.7" */;
+			buildConfigurationList = 045FBFE028392A7C00162C0C /* Build configuration list for PBXProject "homework 2.7" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				045FBFE428392A7D00162C0C /* lesson 2.7 */,
+				045FBFE428392A7D00162C0C /* homework 2.7 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046B50D3283BD94E0020B23C /* SuperAbiltyDelegate .swift in Sources */,
+				045FBFF228392E6B00162C0C /* HeroesFile.swift in Sources */,
 				045FBFE928392A7D00162C0C /* main.swift in Sources */,
+				045FBFF028392D1200162C0C /* Heroes.swift in Sources */,
+				045FBFF428392F5200162C0C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +279,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		045FBFE028392A7C00162C0C /* Build configuration list for PBXProject "lesson 2.7" */ = {
+		045FBFE028392A7C00162C0C /* Build configuration list for PBXProject "homework 2.7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045FBFEA28392A7D00162C0C /* Debug */,
@@ -272,7 +288,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045FBFEC28392A7D00162C0C /* Build configuration list for PBXNativeTarget "lesson 2.7" */ = {
+		045FBFEC28392A7D00162C0C /* Build configuration list for PBXNativeTarget "homework 2.7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045FBFED28392A7D00162C0C /* Debug */,
